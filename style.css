@@ -131,9 +131,9 @@ ul.nav li:last-child{
 
 .download:hover{
     cursor: pointer;
-    color: rgb(0, 255, 0);
-    background-color: aquamarine;
-    border-color: aquamarine;
+    color: rgb(25, 0, 255);
+    background-color: rgb(51, 255, 0);
+    border-color: rgb(51, 255, 0);
 }
 
 .rectangle{
@@ -245,7 +245,7 @@ text-align: center;
 }
 
 #our_process{
-    padding: 90px 147px 116px;
+    padding: 90px 110px 116px;
 }
 
 .tile_wrapper{
@@ -353,9 +353,10 @@ padding: 36px 0;
     border: 1px solid transparent;
     border-radius: 7px;
     background-color: #E2E2E2;
-    margin: 53px 50px 0;
+    margin-top: 53px;
     text-align: center;
-    padding: 14px;
+    padding: 17px;
+    width: 264px;
 }
 
 .comment_text:last-child{
@@ -412,13 +413,20 @@ padding: 36px 0;
 .contact_user{
     padding-top: 91px;
     display: flex;
-    justify-content: space-asd;
+    justify-content: space-between;
 }
 
 .input_size{
     width: 478px;
     height: 32px;
     margin-bottom: 32px;
+}
+
+.input_message{
+    height: 166px;
+    border-color: transparent;
+    border-bottom: 1px solid gray ;
+
 }
 
 .fot_container{
@@ -438,3 +446,4 @@ padding: 36px 0;
     color: white;
     margin-bottom: 0px;
 }
+
