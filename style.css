@@ -15,6 +15,82 @@ html{
     font-size: 14px;
 }
 
+@media (max-width: 1200px) {
+
+    body{ 
+        max-width: 1200px;}
+
+    #media, 
+    .list {
+        flex-direction: column;
+    }
+
+    .ul_center{
+        margin: 20px 0;
+    }
+
+    .comment, .contact_user{
+        flex-direction: column;
+        justify-content: center;
+        margin-left: auto;
+    }
+
+    .comment_adaptive{
+        width: 264px;
+        margin-left: calc(50% - 150px);
+    }
+    
+    .input_size{
+        margin-left: calc(50% - 239px);
+    }
+
+}
+    
+
+@media (max-width: 992px) {
+
+    body{
+        max-width: 992px;}
+
+    #header_fon,
+    #feautures,
+    .tile_wrapper,
+    header{
+        flex-direction: column;
+    }
+
+    .rectangle{
+        margin-top: 20px;
+    }
+
+    .adaptive_size{
+        width: 70%;
+    }
+
+    .adaptive_tab{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+    .feautures_tab:last-child{
+        margin-right: 0px;
+    }
+
+    .feautures_subtitle{
+        margin-bottom: 50px;
+    }
+
+    .download{
+        margin-left: calc(50% - 67px);
+    }
+
+    .adaptive_city{
+        margin-top: 20px;
+        margin-left: calc(50% - 160px);
+    }
+
+}
+
 header{
     background-color: black;
     padding: 20px 110px;
@@ -127,6 +203,7 @@ ul.nav li:last-child{
  border: 1px solid white;
  text-align: center;
  margin-top: 39px;
+ display: inline-block;
 }
 
 .download:hover{
@@ -161,7 +238,7 @@ input{
     border-bottom: 1px solid gray;
     margin-bottom: 19px;
     margin-left: 59px;
-    width: 252px;
+    width: 70%;
 }
 
 .Get{
@@ -195,7 +272,6 @@ input{
 
 .logo{
     padding: 34px 0;
-
 }
 
 #feautures{
@@ -208,11 +284,14 @@ input{
     border: 1px solid transparent;
     border-radius: 4px;
     width: 112px;
-    padding: 45px 0;
-    margin-right: 118px;
+    padding: 45px 0; 
     margin-top: 10px;
     font-size: 15px;
     font-weight: 700;
+    margin-right: 118px;
+}
+.adaptive_tab{
+    
 }
 
 .feautures_title{
